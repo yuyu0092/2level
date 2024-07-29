@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<body>
+    <div class="omikuji">
+     <p>おみくじ</p>
+     <p>ボタンをクリックしてください。</p>
+    <div class="omikuji-button">
+     <button id="button" class="button"> おみくじを引く</button>
+    </div>
+    </div>
+</body>
+    <script>
+        window.onload = function () {
+            const list = ["大吉","吉","中吉","小吉","末吉","凶","大凶"];
+        
+            document.getElementById("button").onclick = function () {
+                var random = Math.floor(Math.random() * list.length);
+                document.getElementById("result").textContent = list[random];
+            }
+        }
+    </script>
+</html>

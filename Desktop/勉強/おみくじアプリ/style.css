@@ -1,0 +1,25 @@
+body{
+    background-image: ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#omikuji{
+    margin: 20px;
+    width: 60%;
+}
+
+#button{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: rgba(132, 132, 33, 0.466);
+    background: rgba(132, 132, 33, 0.466);
+    border: solid 3px rgba(132, 132, 33, 0.466);
+    border-radius: 10px;
+}
